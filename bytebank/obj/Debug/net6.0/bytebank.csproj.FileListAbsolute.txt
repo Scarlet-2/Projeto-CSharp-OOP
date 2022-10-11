@@ -1,0 +1,15 @@
+/home/matheus/RiderProjects/Projeto-CSharp-OOP/bytebank/bin/Debug/net6.0/bytebank
+/home/matheus/RiderProjects/Projeto-CSharp-OOP/bytebank/bin/Debug/net6.0/bytebank.deps.json
+/home/matheus/RiderProjects/Projeto-CSharp-OOP/bytebank/bin/Debug/net6.0/bytebank.runtimeconfig.json
+/home/matheus/RiderProjects/Projeto-CSharp-OOP/bytebank/bin/Debug/net6.0/bytebank.dll
+/home/matheus/RiderProjects/Projeto-CSharp-OOP/bytebank/bin/Debug/net6.0/bytebank.pdb
+/home/matheus/RiderProjects/Projeto-CSharp-OOP/bytebank/obj/Debug/net6.0/bytebank.csproj.AssemblyReference.cache
+/home/matheus/RiderProjects/Projeto-CSharp-OOP/bytebank/obj/Debug/net6.0/bytebank.GeneratedMSBuildEditorConfig.editorconfig
+/home/matheus/RiderProjects/Projeto-CSharp-OOP/bytebank/obj/Debug/net6.0/bytebank.AssemblyInfoInputs.cache
+/home/matheus/RiderProjects/Projeto-CSharp-OOP/bytebank/obj/Debug/net6.0/bytebank.AssemblyInfo.cs
+/home/matheus/RiderProjects/Projeto-CSharp-OOP/bytebank/obj/Debug/net6.0/bytebank.csproj.CoreCompileInputs.cache
+/home/matheus/RiderProjects/Projeto-CSharp-OOP/bytebank/obj/Debug/net6.0/bytebank.dll
+/home/matheus/RiderProjects/Projeto-CSharp-OOP/bytebank/obj/Debug/net6.0/refint/bytebank.dll
+/home/matheus/RiderProjects/Projeto-CSharp-OOP/bytebank/obj/Debug/net6.0/bytebank.pdb
+/home/matheus/RiderProjects/Projeto-CSharp-OOP/bytebank/obj/Debug/net6.0/bytebank.genruntimeconfig.cache
+/home/matheus/RiderProjects/Projeto-CSharp-OOP/bytebank/obj/Debug/net6.0/ref/bytebank.dll
