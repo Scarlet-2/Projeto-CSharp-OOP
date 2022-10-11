@@ -17,6 +17,18 @@ System.Console.WriteLine($"O meu saldo atual é: {contaDoMatheus.saldo}");
 contaDoMatheus.Sacar(300);
 System.Console.WriteLine($"Eu saquei 300 Reais agora meu saldo é: {contaDoMatheus.saldo}");
 
+// Criação de outra conta 
+ContaCorrente contaDaLuana = new ContaCorrente();
+contaDaLuana.titular = "Luana";
+contaDaLuana.numero_agencia = 29;
+contaDaLuana.saldo = 0;
+contaDaLuana.conta = 312.ToString();
+
+// Tranferencia
+contaDoMatheus.Tranferir(2000, contaDaLuana);
+
+System.Console.WriteLine($"O saldo da luana é {contaDaLuana.saldo}");
+
 System.Console.WriteLine($"Titular da conta: {contaDoMatheus.titular}");
 System.Console.WriteLine($"Numero de Agência: {contaDoMatheus.numero_agencia}");
 System.Console.WriteLine($"Saldo da conta: {contaDoMatheus.saldo}");

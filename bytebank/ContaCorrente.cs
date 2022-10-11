@@ -24,7 +24,16 @@ public class ContaCorrente
             this.saldo -= valor;
 
         }
+    }
 
+    public void Tranferir(double valor, ContaCorrente conta) {
+        if(this.saldo < valor) {
+            System.Console.WriteLine("O valor ultrapassa seu saldo.");
+        } else {
+            this.saldo -= valor;
+            conta.saldo += valor;
+            System.Console.WriteLine($"Valor R${valor} foi transferido com sucesso");
+        }
     }
 }
 
