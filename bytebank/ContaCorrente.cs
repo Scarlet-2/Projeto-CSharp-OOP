@@ -22,7 +22,6 @@ public class ContaCorrente
         
         } else {
             this.saldo -= valor;
-
         }
     }
 
