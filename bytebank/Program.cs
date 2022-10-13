@@ -7,7 +7,7 @@ ContaCorrente contaDoMatheus = new ContaCorrente();
 contaDoMatheus.titular = "Matheus";
 contaDoMatheus.numero_agencia = 22;
 contaDoMatheus.saldo = 20000;
-contaDoMatheus.conta = 228.ToString();
+contaDoMatheus.conta = "228";
 
 // Usando deposito
 contaDoMatheus.Depositar(2000); // Sucesso!!
@@ -22,7 +22,7 @@ ContaCorrente contaDaLuana = new ContaCorrente();
 contaDaLuana.titular = "Luana";
 contaDaLuana.numero_agencia = 29;
 contaDaLuana.saldo = 0;
-contaDaLuana.conta = 312.ToString();
+contaDaLuana.conta = "312";
 
 // Tranferencia
 contaDoMatheus.Tranferir(2000, contaDaLuana);
