@@ -6,9 +6,9 @@ namespace bytebank;
 public class ContaCorrente
 {
     public int numero_agencia;
-    public string conta;
-    public string titular;
-    public double saldo;
+    public string conta = "";
+    public string titular = "";
+    public double saldo = 0;
 
     // Depositar
     public void Depositar(double valor) {
