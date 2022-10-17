@@ -15,8 +15,15 @@ public class ContaCorrente
     // Depositar
     public Titular Titular
     {
+        // Isso OU
         get => titular;
         set => titular = value ?? throw new ArgumentNullException(nameof(value));
+
+        // Isso aqui
+        /*
+        get { return titular; }
+        set { this.titular = value; }
+        */
     }
 
     public double Saldo
