@@ -7,17 +7,17 @@ using bytebank.Contas;
 
 ContaCorrente contaDoMatheus = new ContaCorrente();
 // contaDoMatheus.titular = "Matheus";
-contaDoMatheus.numero_agencia = 22;
-contaDoMatheus.saldo = 20000;
-contaDoMatheus.conta = "228";
+contaDoMatheus.NumeroAgencia = 22;
+contaDoMatheus.Saldo = 20000;
+contaDoMatheus.Conta = "228";
 
 // Usando deposito
 contaDoMatheus.Depositar(2000); // Sucesso!!
-Console.WriteLine($"O meu saldo atual é: {contaDoMatheus.saldo}");
+Console.WriteLine($"O meu saldo atual é: {contaDoMatheus.Saldo}");
 
 // Sacar
 contaDoMatheus.Sacar(300);
-Console.WriteLine($"Eu saquei 300 Reais agora meu saldo é: {contaDoMatheus.saldo}");
+Console.WriteLine($"Eu saquei 300 Reais agora meu saldo é: {contaDoMatheus.Saldo}");
 
 /*
 // Criação de outra conta 
@@ -38,15 +38,15 @@ conta.cpf = "56020676803";
 conta.profissao = "Arquiteto";
 
 ContaCorrente contaNormal = new ContaCorrente();
-contaNormal.saldo = 200;
-contaNormal.conta = "10x2";
-contaNormal.numero_agencia = 35;
-contaNormal.titular = conta;
+contaNormal.Saldo = 200;
+contaNormal.Conta = "10x2";
+contaNormal.NumeroAgencia = 35;
+contaNormal.Titular = conta;
 
 // System.Console.WriteLine($"O saldo da luana é {contaDaLuana.saldo}");
 
-Console.WriteLine($"Titular da conta: {contaNormal.titular.nome}"); // <== Acessando variavel dentro de Titular que tem link com ContaCorrente
-Console.WriteLine($"Numero de Agência: {contaDoMatheus.numero_agencia}");
-Console.WriteLine($"Saldo da conta: {contaDoMatheus.saldo}");
-Console.WriteLine($"Numero da conta: {contaDoMatheus.conta}");
+Console.WriteLine($"Titular da conta: {contaNormal.Titular.nome}"); // <== Acessando variavel dentro de Titular que tem link com ContaCorrente
+Console.WriteLine($"Numero de Agência: {contaDoMatheus.NumeroAgencia}");
+Console.WriteLine($"Saldo da conta: {contaDoMatheus.Saldo}");
+Console.WriteLine($"Numero da conta: {contaDoMatheus.Conta}");
 
