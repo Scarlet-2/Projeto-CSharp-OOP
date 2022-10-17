@@ -2,6 +2,8 @@
 // Mudando conteudo de uma classe
 
 using bytebank;
+using bytebank.Titular;
+using bytebank.Contas;
 
 ContaCorrente contaDoMatheus = new ContaCorrente();
 // contaDoMatheus.titular = "Matheus";

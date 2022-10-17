@@ -1,7 +1,8 @@
 
 using System;
 
-namespace bytebank;
+namespace bytebank.Contas;
+using bytebank.Titular;
 
 public class ContaCorrente
 {

@@ -1,6 +1,5 @@
-using System;
 
-namespace bytebank
+namespace bytebank.Titular
 {
     public class Titular {
         public string nome = "";
