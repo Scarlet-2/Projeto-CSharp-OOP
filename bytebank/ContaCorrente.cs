@@ -7,8 +7,9 @@ public class ContaCorrente
 {
     public int numero_agencia;
     public string conta = "";
-    public string titular = "";
     public double saldo = 0;
+
+    public Titular titular;
 
     // Depositar
     public void Depositar(double valor) {
@@ -18,7 +19,7 @@ public class ContaCorrente
     public void Sacar(double valor) {
 
         if(valor >= this.saldo) {
-            System.Console.WriteLine("Você esta sacando mais que pode meu rapaz pode não.");
+            Console.WriteLine("Você esta sacando mais que pode meu rapaz pode não.");
         
         } else {
             this.saldo -= valor;
@@ -26,12 +27,12 @@ public class ContaCorrente
     }
 
     public void Tranferir(double valor, ContaCorrente conta) {
-        if(this.saldo < valor) {
-            System.Console.WriteLine("O valor ultrapassa seu saldo.");
+        if (this.saldo < valor) {
+            Console.WriteLine("O valor ultrapassa seu saldo.");
         } else {
             this.saldo -= valor;
             conta.saldo += valor;
-            System.Console.WriteLine($"Valor R${valor} foi transferido com sucesso");
+            Console.WriteLine($"Valor R${valor} foi transferido com sucesso");
         }
     }
 }
