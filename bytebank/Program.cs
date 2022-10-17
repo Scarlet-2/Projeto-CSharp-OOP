@@ -33,9 +33,9 @@ contaDaLuana.conta = "312";
 
 // Link de objeto com objeto
 Titular conta = new Titular();
-conta.nome = "Matheus";
-conta.cpf = "56020676803";
-conta.profissao = "Arquiteto";
+conta.Nome = "Matheus";
+conta.Cpf = "56020676803";
+conta.Profissao = "Arquiteto";
 
 ContaCorrente contaNormal = new ContaCorrente();
 contaNormal.Saldo = 200;
@@ -45,7 +45,7 @@ contaNormal.Titular = conta;
 
 // System.Console.WriteLine($"O saldo da luana é {contaDaLuana.saldo}");
 
-Console.WriteLine($"Titular da conta: {contaNormal.Titular.nome}"); // <== Acessando variavel dentro de Titular que tem link com ContaCorrente
+Console.WriteLine($"Titular da conta: {contaNormal.Titular.Nome}"); // <== Acessando variavel dentro de Titular que tem link com ContaCorrente
 Console.WriteLine($"Numero de Agência: {contaDoMatheus.NumeroAgencia}");
 Console.WriteLine($"Saldo da conta: {contaDoMatheus.Saldo}");
 Console.WriteLine($"Numero da conta: {contaDoMatheus.Conta}");

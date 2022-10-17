@@ -7,12 +7,16 @@ using bytebank.Titular;
 public class ContaCorrente
 {
     private int numero_agencia;
-    private string conta = "";
+    // private string conta = "";
+    
+    // Propriedade autoimplementada
+    public string Conta { get; set; }
+    
     private double saldo = 0;
 
     private Titular titular;
 
-    // Depositar
+
     public Titular Titular
     {
         // Isso OU
@@ -32,11 +36,13 @@ public class ContaCorrente
         set => saldo = value;
     }
 
+    /*
     public string Conta
     {
         get => conta;
         set => conta = value ?? throw new ArgumentNullException(nameof(value));
     }
+    */
 
     public int NumeroAgencia
     {
@@ -44,6 +50,7 @@ public class ContaCorrente
         set => numero_agencia = value;
     }
 
+    // Depositar
     public void Depositar(double valor) {
         Saldo += valor;
     }
