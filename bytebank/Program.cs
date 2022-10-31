@@ -48,3 +48,9 @@ Console.WriteLine($"Numero de Agência: {contaDoMatheus.NumeroAgencia}");
 Console.WriteLine($"Saldo da conta: {contaDoMatheus.Saldo}");
 Console.WriteLine($"Numero da conta: {contaDoMatheus.Conta}");
 
+Console.WriteLine(" ");
+Console.WriteLine("//------------//----------------//----------------//");
+// Assim que você acessa o metodo da classe não do objeto (static / statico)
+Console.WriteLine($"O total de contas criadas até agora é: {ContaCorrente.TotalDeContasCriadas}");
+Console.WriteLine("//------------//----------------//----------------//");
+

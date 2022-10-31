@@ -6,6 +6,8 @@ using bytebank.Titular;
 
 public class ContaCorrente
 {
+    public static int TotalDeContasCriadas { get; private set; }
+    
     private int numero_agencia;
     // private string conta = "";
     
@@ -16,10 +18,11 @@ public class ContaCorrente
 
     private Titular titular;
 
-    public ContaCorrente(int numeroAgencia, string numero_conta)
+    public ContaCorrente(int numeroAgencia, string numeroConta)
     {
         this.NumeroAgencia = numeroAgencia;
-        this.Conta = numero_conta;
+        this.Conta = numeroConta;
+        TotalDeContasCriadas++;
     }
 
     public Titular Titular
