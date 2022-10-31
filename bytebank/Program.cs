@@ -5,9 +5,8 @@ using bytebank;
 using bytebank.Titular;
 using bytebank.Contas;
 
-ContaCorrente contaDoMatheus = new ContaCorrente(
-    22, "228-X"
-    );
+ContaCorrente contaDoMatheus = new ContaCorrente(22, "228-X");
+
 // contaDoMatheus.titular = "Matheus";
 contaDoMatheus.NumeroAgencia = 22;
 
@@ -44,6 +43,7 @@ contaNormal.Titular = conta;
 // System.Console.WriteLine($"O saldo da luana é {contaDaLuana.saldo}");
 
 Console.WriteLine($"Titular da conta: {contaNormal.Titular.Nome}"); // <== Acessando variavel dentro de Titular que tem link com ContaCorrente
+
 Console.WriteLine($"Numero de Agência: {contaDoMatheus.NumeroAgencia}");
 Console.WriteLine($"Saldo da conta: {contaDoMatheus.Saldo}");
 Console.WriteLine($"Numero da conta: {contaDoMatheus.Conta}");
