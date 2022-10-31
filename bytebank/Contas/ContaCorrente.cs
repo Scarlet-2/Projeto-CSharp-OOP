@@ -18,10 +18,12 @@ public class ContaCorrente
 
     private Titular titular;
 
-    public ContaCorrente(int numeroAgencia, string numeroConta)
+    public ContaCorrente(int numeroAgencia, string conta, double saldo, Titular titular)
     {
         this.NumeroAgencia = numeroAgencia;
-        this.Conta = numeroConta;
+        this.Conta = conta;
+        this.Saldo = saldo;
+        this.Titular = titular;
         TotalDeContasCriadas++;
     }
 

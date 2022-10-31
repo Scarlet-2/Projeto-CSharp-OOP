@@ -5,7 +5,11 @@ using bytebank;
 using bytebank.Titular;
 using bytebank.Contas;
 
-ContaCorrente contaDoMatheus = new ContaCorrente(22, "228-X");
+Titular contaMatheus = new Titular();
+contaMatheus.Cpf = "2432523462";
+contaMatheus.Nome = "Matheus";
+contaMatheus.Profissao = "Astronauta";
+ContaCorrente contaDoMatheus = new ContaCorrente(22, "228-X", 0, contaMatheus);
 
 // contaDoMatheus.titular = "Matheus";
 contaDoMatheus.NumeroAgencia = 22;
@@ -36,9 +40,7 @@ conta.Nome = "Matheus";
 conta.Cpf = "56020676803";
 conta.Profissao = "Arquiteto";
 
-ContaCorrente contaNormal = new ContaCorrente(35, "10x2");
-contaNormal.Saldo = 200;
-contaNormal.Titular = conta;
+ContaCorrente contaNormal = new ContaCorrente(35, "10x2", 200, conta);
 
 // System.Console.WriteLine($"O saldo da luana é {contaDaLuana.saldo}");
 
