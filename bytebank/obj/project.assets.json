@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/matheus/RiderProjects/Projeto-CSharp-OOP/bytebank/bytebank.csproj",
+      "projectUniqueName": "/home/matheus/Documentos/Scarlet/Projeto-CSharp-OOP/bytebank/bytebank.csproj",
       "projectName": "bytebank",
-      "projectPath": "/home/matheus/RiderProjects/Projeto-CSharp-OOP/bytebank/bytebank.csproj",
+      "projectPath": "/home/matheus/Documentos/Scarlet/Projeto-CSharp-OOP/bytebank/bytebank.csproj",
       "packagesPath": "/home/matheus/.nuget/packages/",
-      "outputPath": "/home/matheus/RiderProjects/Projeto-CSharp-OOP/bytebank/obj/",
+      "outputPath": "/home/matheus/Documentos/Scarlet/Projeto-CSharp-OOP/bytebank/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/matheus/.nuget/NuGet/NuGet.Config"
@@ -49,8 +49,7 @@
           "net47",
           "net471",
           "net472",
-          "net48",
-          "net481"
+          "net48"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -59,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.109/RuntimeIdentifierGraph.json"
       }
     }
   }

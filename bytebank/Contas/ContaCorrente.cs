@@ -16,6 +16,11 @@ public class ContaCorrente
 
     private Titular titular;
 
+    public ContaCorrente(int numeroAgencia, string numero_conta)
+    {
+        this.NumeroAgencia = numeroAgencia;
+        this.Conta = numero_conta;
+    }
 
     public Titular Titular
     {
@@ -47,7 +52,7 @@ public class ContaCorrente
     public int NumeroAgencia
     {
         get => numero_agencia;
-        set => numero_agencia = value;
+        internal set => numero_agencia = value;
     }
 
     // Depositar
